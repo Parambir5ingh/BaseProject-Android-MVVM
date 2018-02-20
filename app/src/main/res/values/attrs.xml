@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialBadgeTextView">
+        <attr name="mbtv_backgroundColor" format="color"/>
+        <attr name="mbtv_border_width" format="dimension"/>
+        <attr name="mbtv_border_color" format="color"/>
+        <attr name="mbtv_border_alpha" format="float"/>
+        <attr name="mbtv_type" format="enum">
+            <enum name="shadow_gradual" value="1"/>
+            <enum name="shadow_alpha" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+
+
+    <declare-styleable name="BubbleView">
+        <attr name="arrowWidth" format="dimension"/>
+        <attr name="angle" format="dimension"/>
+        <attr name="arrowHeight" format="dimension"/>
+        <attr name="arrowPosition" format="dimension"/>
+        <attr name="bubbleColor" format="color"/>
+        <attr name="arrowCenter" format="boolean"/>
+        <attr name="arrowLocation" format="enum">
+            <enum name="left" value="0x04"/>
+            <enum name="right" value="0x01"/>
+            <enum name="top" value="0x02"/>
+            <enum name="bottom" value="0x03"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RippleBackground">
+        <attr name="rb_color" format="color" />
+        <attr name="rb_strokeWidth" format="dimension"/>
+        <attr name="rb_radius" format="dimension"/>
+        <attr name="rb_duration" format="integer"/>
+        <attr name="rb_rippleAmount" format="integer"/>
+        <attr name="rb_scale" format="float"/>
+        <attr name="rb_type" format="enum">
+            <enum name="fillRipple" value="0"/>
+            <enum name="strokeRipple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
